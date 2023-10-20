@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function saluda(nombre, apellido) {
+            alert("hola " + nombre + apellido);
+            alert("yo bien, ¿y tu?");
+            asignatura = "programación"; // tipo texto
+            edad = 17; // tipo entero
+            estudiante = True; // tipo booleano
+            alert("Estudio" + asignatura); 
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Pruebas javascript</h2>
+    <button type="button" onclick="saluda('melany ', 'garcia')">Salúdame</button>
+    <button type="button" onclick="document.getElementById('manolo').style.fontSize= '35px'">Hazlo grande</button>
+    <button type="button" onclick="document.getElementById('manolo').style.fontSize= '10px'">Hazlo pequeño</button>
+
+    <p id="manolo">Pulsa el siguiente botón</p>
+    <button type="button" onclick="alert('hola que tal')">Haz click aquí</button>
+    <button type="button" onclick="document.getElementById('manolo').innerHTML ='soy manolo'">Haz click aquí</button>
+    <button type="button" onclick="document.getElementById('foto').src='img/pato.jpeg'">Muestra a manolo</button>
+    <img id="foto" src="img/pato.jpeg" alt="">
+</body>
+
+</html>
